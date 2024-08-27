@@ -12,7 +12,7 @@ export default defineConfig({
     port: 3000,
     proxy:{
       '/api' : {
-        target: 'jobs-production-b0b9.up.railway.app',
+        target: 'jobs-production-b0b9.up.railway.app/jobs',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/,''),
       }
