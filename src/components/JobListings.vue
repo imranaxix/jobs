@@ -1,7 +1,7 @@
 <script setup>
 import JobListing from './JobListing.vue';
 import { ref,defineProps, onMounted } from 'vue';
-import axios from 'axios';
+import { getJobs } from '@/API/api'; 
 import { RouterLink } from 'vue-router';
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 const jobs = ref([]);
@@ -19,18 +19,17 @@ defineProps({
   }
 })
 
-onMounted(async () =>{
- try{
-  const response = await axios.get("/api/jobs");
-  jobs.value = response.data;
- }
- catch{
-  console.log("Error Fetching data");
- }
- finally{
-  loading.value = false;
- }
-})
+onMounted(async () => {
+  try {
+    const response = await getJobs();
+    jobs.value = response.data;
+  } catch (error) {
+    console.error("Error fetching data", error);
+    // Optionally set some error state or show a message to the user
+  } finally {
+    loading.value = false;
+  }
+});
 
 
 

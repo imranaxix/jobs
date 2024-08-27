@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useRouter, useRoute } from 'vue-router';
 import { reactive, onMounted } from 'vue';
 import { useToast } from 'vue-toastification';
+import { getJob, updateJob } from '@/API/api';
 
 const router = useRouter();
 const route = useRoute();
@@ -30,8 +31,19 @@ const form = reactive({
 });
 
 
-const handleSubmit = async () =>{
- 
+onMounted(async () => {
+  try {
+    const response = await getJob(jobID);
+    state.job = response.data;
+    Object.assign(form, state.job);
+  } catch (error) {
+    console.error('Error fetching job', error);
+  } finally {
+    state.isLoading = false;
+  }
+});
+
+const handleSubmit = async () => {
   const updatedJob = {
     type: form.type,
     title: form.title,
@@ -44,45 +56,20 @@ const handleSubmit = async () =>{
       contactEmail: form.company.contactEmail,
       contactPhone: form.company.contactPhone,
     },
-  }
+  };
 
-  try{
-    const response = await axios.put(`/api/jobs/${jobID}`, updatedJob);
+  try {
+    const response = await updateJob(jobID, updatedJob);
     toast.success("Job Updated Successfully");
     router.push(`/jobs/${response.data.id}`);
-    
+  } catch (error) {
+    console.error('Error updating job', error);
+    toast.error("Job Was Not Updated");
   }
-  catch(error){
-    console.error('Error fetching job', error);
-    toast.error("Job Was Not Added")
-  }
-
 };
 
 
 
-onMounted(async ()=>{
-  try {
-    const response = await axios.get(`/api/jobs/${jobID}`);
-    state.job = response.data;
-
-    form.type = state.job.type;
-    form.title = state.job.title;
-    form.description = state.job.description;
-    form.salary = state.job.salary;
-    form.location = state.job.location;
-    form.company.name = state.job.company.name;
-    form.company.description = state.job.company.description;
-    form.company.contactEmail = state.job.company.contactEmail;
-    form.company.contactPhone = state.job.company.contactPhone;
-    
-  } catch (error) {
-    console.error('Error fetching job', error);
-  }
-  finally{
-    state.isLoading = false;
-  }
-})
 
 
 

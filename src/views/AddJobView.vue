@@ -4,6 +4,8 @@ import { useRouter } from 'vue-router';
 import { reactive } from 'vue';
 import { useToast } from 'vue-toastification';
 
+import { addJob } from '@/API/api';
+
 const router = useRouter();
 const toast = useToast();
 
@@ -38,17 +40,15 @@ const handleSubmit = async () =>{
     },
   }
 
-  try{
-    const response = await axios.post('/api/jobs', newJob);
+  try {
+    const response = await addJob(newJob);
     toast.success("New Job Added Successfully");
     router.push(`/jobs/${response.data.id}`);
-    
+  } catch (error) {
+    console.error('Error adding job', error);
+    toast.error("Job Was Not Added");
   }
-  catch(error){
-    console.error('Error fetching job', error);
-    toast.error("Job Was Not Added")
-  }
-
+  
 };
 
 

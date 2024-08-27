@@ -11,11 +11,7 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy:{
-      '/api' : {
-        target: 'jobs-production-b0b9.up.railway.app/jobs',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/,''),
-      }
+      '/api': 'https://jobs-production-b0b9.up.railway.app',
     }
   },
   resolve: {
