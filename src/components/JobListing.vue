@@ -11,7 +11,7 @@ const showFullDesc = ref(false);
 const truncatedDesc = computed(()=>{
   let description = props.job.description;
   if(!showFullDesc.value){
-    description = description.substring(0,90) + "...";
+    description = description.substring(0,150) + "...";
   }
   return description;
 })

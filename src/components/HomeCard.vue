@@ -13,9 +13,9 @@ import { RouterLink } from 'vue-router';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
 
           <Card >
-            <h2 class="text-2xl font-bold">For Developers</h2>
+            <h2 class="text-2xl font-bold">Looking for a Job?</h2>
             <p class="mt-2 mb-4">
-              Browse our Vue jobs and start your career today
+              Browse jobs and start your career today
             </p>
             <RouterLink
               to="/jobs"
@@ -28,7 +28,7 @@ import { RouterLink } from 'vue-router';
           <Card bg="bg-red-100">
             <h2 class="text-2xl font-bold">For Employers</h2>
             <p class="mt-2 mb-4">
-              List your job to find the perfect developer for the role
+              List your job to find the perfect person for the role
             </p>
             <RouterLink
               to="/jobs/add"

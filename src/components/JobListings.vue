@@ -25,7 +25,6 @@ onMounted(async () => {
     jobs.value = response.data;
   } catch (error) {
     console.error("Error fetching data", error);
-    // Optionally set some error state or show a message to the user
   } finally {
     loading.value = false;
   }
