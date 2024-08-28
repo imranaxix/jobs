@@ -1,102 +1,130 @@
 {
   "jobs": [
     {
-      "title": "Senior Vue Dev",
+      "title": "Software Developer",
       "type": "Full-Time",
-      "location": "Boston, MA",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
-      "salary": "$90K - $100K",
+      "location": "Silicon Valley, CA",
+      "description": "Pied Piper is actively seeking talented Software Developers to join our innovative team. If you’re passionate about coding, algorithm development, and cutting-edge technology, we want you to be part of our exciting journey. At Pied Piper, you'll engage in groundbreaking projects, collaborate with a brilliant team, and make a significant impact in the tech world. We offer competitive salaries, ample growth opportunities, and a dynamic work environment where your skills and ideas will truly thrive. Apply today to join us!",
+      "salary": "$125K - $150K",
       "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
+        "name": "Pied Piper",
+        "description": "Pied Piper is a leading innovator in compression technology based in Silicon Valley, CA. We specialize in developing cutting-edge software solutions that enhance data efficiency and scalability. Our revolutionary compression algorithms are designed to transform how businesses handle and process data, driving efficiency and performance across various industries. At Pied Piper, we are committed to pushing the boundaries of technology and fostering a culture of creativity, collaboration, and excellence. Join us in shaping the future of technology!",
+        "contactEmail": "contact@piedpiper.com",
+        "contactPhone": "555-123-4567"
       },
       "id": "1"
     },
     {
       "id": "2",
-      "title": "Front-End Engineer (Vue)",
+      "title": "Restaurant Manager",
       "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "location": "Miami, FL",
+      "description": "We are currently in search of a skilled Restaurant Manager to join Los Pollos Hermanos in Albuquerque. Prior experience is beneficial, but not mandatory – our leader is open to taking a chance on individuals displaying the right capabilities. You will oversee daily operations, ensure customer satisfaction, and manage staff. If you have a passion for the restaurant industry and are ready to lead with enthusiasm, we invite you to apply.",
+      "location": "Albuquerque, NM",
       "salary": "$70K - $80K",
       "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
+        "name": "Los Pollos Hermanos",
+        "description": "Los Pollos Hermanos is a vibrant and successful restaurant known for its delicious, top-quality food and exceptional customer service. With a commitment to fresh ingredients and a welcoming atmosphere, we pride ourselves on being a staple in the Albuquerque community. Our mission is to provide an unforgettable dining experience with every meal, ensuring that our customers leave satisfied and eager to return.",
+        "contactEmail": "contact@lph.com",
+        "contactPhone": "505-148-3369"
       }
     },
     {
       "type": "Full-Time",
-      "title": "Vue.js Dev",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-      "salary": "$100K - $125K",
-      "location": "Brooklyn, NY",
+      "title": "Salesman",
+      "description": "Are you a driven and enthusiastic sales professional looking to make your mark in a vibrant and supportive work environment? Dunder Mifflin's Scranton branch is seeking a talented Salesman to join our growing team. If you’re passionate about sales, client relationships, and contributing to a team that values creativity and excellence, this is the perfect opportunity for you! Bring your sales skills to Dunder Mifflin and help us achieve new heights.",
+      "salary": "$70K - $80K",
+      "location": "Scranton, PA",
       "company": {
-        "name": "Dolor Cloud",
-        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-        "contactEmail": "contact@dolorsitamet.com",
-        "contactPhone": "555-555-5555"
+        "name": "Dunder Mifflin",
+        "description": "Dunder Mifflin is a leading paper supply company renowned for delivering exceptional products and services across the nation. Founded in 1949, we have built a reputation for reliability and excellence in the paper industry. Our commitment to quality, customer satisfaction, and innovative solutions sets us apart. With a dedicated team and a focus on strong client relationships, Dunder Mifflin is dedicated to meeting the diverse needs of businesses with integrity and efficiency.",
+        "contactEmail": "tobeyflenderson@dmscranton.com",
+        "contactPhone": "555-123-9999"
       },
       "id": "3"
     },
     {
       "id": "4",
-      "title": "Vue Front-End Developer",
-      "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
-      "location": "Pheonix, AZ",
+      "title": "App Development Intern",
+      "type": "Internship",
+      "description": "Hooli is seeking a motivated App Development Intern to join our innovative team. In this role, you’ll assist with developing, testing, and optimizing mobile applications. Responsibilities include collaborating on app design, writing code, debugging, and contributing to project development. Ideal candidates are passionate about app development, have basic programming skills, and are eager to learn and grow in a fast-paced tech environment. Join us at Hooli to gain hands-on experience and enhance your development skills!",
+      "location": "Silicon Valley, CA",
       "salary": "$60K - $70K",
       "company": {
-        "name": "Alpha Elite",
-        "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
-        "contactEmail": "contact@adipisicingelit.com",
-        "contactPhone": "555-555-5555"
+        "name": "Hooli",
+        "description": "Hooli is a global technology leader known for its groundbreaking innovations and transformative products. Based in Silicon Valley, we drive progress with our advanced solutions and forward-thinking approach. Our company thrives on creativity, collaboration, and excellence, continually pushing the boundaries of technology. At Hooli, we are committed to making a positive impact through our revolutionary products and empowering our team to achieve greatness.",
+        "contactEmail": "gavinbelson@hooli.com",
+        "contactPhone": "555-000-0001"
       }
     },
     {
       "id": "5",
-      "title": "Full Stack Vue Developer",
+      "title": "Receptionist",
       "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-      "location": "Atlanta, GA",
-      "salary": "$90K - $100K",
+      "description": "Are you a charismatic and organized individual with a flair for customer service? Michael Scott Paper Company is seeking a Receptionist to be the welcoming face of our office. In this role, you’ll handle phone calls, greet visitors, and assist with administrative tasks. If you’re enthusiastic, have a great sense of humor, and are ready to help our team thrive, this is the perfect position for you. Apply now and join the fun at Michael Scott Paper Company!",
+      "location": "Scranton, PA",
+      "salary": "$under $50K",
       "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555"
+        "name": "Michael Scott Paper Company",
+        "description": "Michael Scott Paper Company is a dynamic and quirky paper supply company founded by Michael Scott himself. Known for our unique approach to business and our commitment to customer satisfaction, we provide quality paper products with a touch of fun. We pride ourselves on our creative solutions, exceptional service, and a work environment that values humor and camaraderie. Join us and be part of a company where every day is an adventure!",
+        "contactEmail": "ryan@mspc.com",
+        "contactPhone": "555-999-8888"
       }
     },
     {
       "id": "6",
-      "title": "Vue Native Developer",
+      "title": "Vice President of Northeast Sales",
       "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
-      "location": "Portland, OR",
-      "salary": "$100K - $110K",
+      "description": "Dunder Mifflin is on the hunt for an experienced Vice President of Northeast Sales to lead our dynamic sales team. The ideal candidate will bring a proven track record in sales leadership, strategic thinking, and a deep understanding of the Northeast market. You will be responsible for driving sales growth, developing strategies, and managing a high-performing team. If you’re a seasoned professional with a passion for sales and leadership, we want to hear from you!",
+      "location": "New York, NY",
+      "salary": "Over $200K",
       "company": {
-        "name": "Port Solutions INC",
-        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
-        "contactEmail": "contact@ipsumlorem.com",
-        "contactPhone": "555-555-5555"
+        "name": "Dunder Mifflin",
+        "description": "Dunder Mifflin is a premier paper supply company renowned for its reliability and exceptional service. Established in 1949, we’ve built a solid reputation across the nation by delivering high-quality products and fostering strong client relationships. Our commitment to innovation and customer satisfaction sets us apart in the paper industry. Join us and contribute to a company dedicated to excellence and customer-focused solutions.",
+        "contactEmail": "contact@dundermifflin.com",
+        "contactPhone": "555-111-3333"
       }
     },
     {
       "type": "Full-Time",
-      "title": "Restaurant Manager",
-      "description": "We are currently in search of a skilled Restaurant Manager to join Los Pollos Hermanos in Albuquerque. Prior experience is beneficial, but not mandatory – our leader is open to taking a chance on individuals displaying the right capabilities.",
+      "title": "Software Developer",
+      "description": "Hooli is searching for a talented Software Developer to join our elite team. In this role, you’ll work on developing innovative software solutions and contribute to high-impact projects. We’re looking for someone with a strong background in coding, problem-solving skills, and a passion for technology. If you’re ready to tackle challenging problems and be part of a groundbreaking tech company, apply today and bring your expertise to Hooli!",
       "salary": "Over $200K",
-      "location": "Albuquerque, NM",
+      "location": "Silicon Valley, CA",
       "company": {
-        "name": "Los Pollos Hermanos",
-        "description": "Los Pollos Hermanos knows what family tastes like and we bring that warmth and goodness into our food every single day. We always have something delicious cooking, be it our crispy fried chicken, new spicy curly fries, or delicious dipping sauces.",
-        "contactEmail": "gustavo@lph.com",
-        "contactPhone": "505-148-3369"
+        "name": "Hooli",
+        "description": "Hooli is a global technology leader known for its groundbreaking innovations and transformative products. Based in Silicon Valley, we drive progress with our advanced solutions and forward-thinking approach. Our company thrives on creativity, collaboration, and excellence, continually pushing the boundaries of technology. At Hooli, we are committed to making a positive impact through our revolutionary products and empowering our team to achieve greatness.",
+        "contactEmail": "gavinbelson@hooli.com",
+        "contactPhone": "555-000-0001"
       },
-      "id": "2ad7"
+      "id": "7"
+    },
+    {
+      "type": "Full-Time",
+      "title": "Cloud Developer",
+      "description": "Pied Piper is on the lookout for a skilled Cloud Developer to join our innovative tech team. This role involves developing and optimizing cloud-based solutions to enhance data efficiency and performance. If you’re experienced in cloud technologies, have a passion for cutting-edge development, and are ready to make a significant impact, we want you on our team. Apply now and help us revolutionize data handling and processing at Pied Piper!",
+      "salary": "Over $200K",
+      "location": "Silicon Valley, CA",
+      "company": {
+        "name": "Pied Piper",
+        "description": "Pied Piper is a leading innovator in compression technology based in Silicon Valley, CA. We specialize in developing cutting-edge software solutions that enhance data efficiency and scalability. Our revolutionary compression algorithms are designed to transform how businesses handle and process data, driving efficiency and performance across various industries. At Pied Piper, we are committed to pushing the boundaries of technology and fostering a culture of creativity, collaboration, and excellence. Join us in shaping the future of technology!",
+        "contactEmail": "contact@piedpiper.com",
+        "contactPhone": "555-123-4567"
+      },
+      "id": "8"
+    },
+    {
+      "id": "9",
+      "title": "CEO",
+      "type": "Full-Time",
+      "description": "Raviga Capitals is seeking a visionary CEO to lead our investment firm following the passing of our esteemed founder, Peter Gregory. As CEO, you will be responsible for steering our strategic direction, overseeing investments, and leading a talented team. We require a seasoned professional with significant experience in venture capital, a deep understanding of the market, and a track record of leadership. If you’re ready to build on Peter Gregory’s legacy, we invite you to apply.",
+      "location": "Silicon Valley, CA",
+      "salary": "Negotiable",
+      "company": {
+        "name": "Raviga Capitals",
+        "description": "Raviga Capitals, based in Silicon Valley, is a premier venture capital firm known for its strategic investments in groundbreaking technology companies. Founded by the late Peter Gregory, a renowned billionaire investor, we are committed to continuing his legacy of excellence. Our mission is to identify and nurture innovative startups, driving progress and transforming industries. Join us and be part of a firm dedicated to shaping the future of technology.",
+        "contactEmail": "contact@ravigacapitals.com",
+        "contactPhone": "555-987-6543"
+      }
     }
   ]
 }
